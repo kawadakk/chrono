@@ -76,3 +76,6 @@ harness = false
 name = "serde"
 harness = false
 required-features = ["serde"]
+
+[patch.crates-io]
+time = { git = "https://github.com/kawadakk/time", branch = "feat-solid-support-0.1" }
