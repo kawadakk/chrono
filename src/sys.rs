@@ -16,7 +16,7 @@
 
 use std::time::{SystemTime, UNIX_EPOCH};
 
-#[cfg(any(target_arch = "wasm32", target_env = "sgx", target_os = "solid-asp3"))]
+#[cfg(any(target_arch = "wasm32", target_env = "sgx", target_os = "solid_asp3"))]
 #[path = "sys/stub.rs"]
 mod inner;
 
